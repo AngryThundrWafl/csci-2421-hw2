@@ -1,0 +1,8 @@
+in set classs we have a function called read file that has 4 operations before it goes through a for loop that has nested loop inside 
+so we have O(n^2) n is able to iterate 30 times so n = 30 being the max capacity of the for loop 
+so it would be O(30)+4
+the operator overloading function we have a the first function that has a for loop with a loop nested in anested loop 
+O(n^3)
+Then another operation is done where it has a linear loop 
+O(n)
+Set class has a run time of f(x)=(O(n^2)+4) + O(n^2) + O(n)
